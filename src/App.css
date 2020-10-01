@@ -1,0 +1,60 @@
+/* Its is Only For Web View */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contact_select select{
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 19px !important;
+    margin: 10px 0;
+}
+.contact_search input{
+   margin:10px 0;
+   border: 1px solid rgb(211, 208, 208);
+   background: transparent;
+   outline: none;
+   border-radius: 10px;
+   width: 140px;
+}
+.contact{
+    background-color: #51adcf;
+    width: 40%;
+    height: 100vh;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    opacity: .8;
+    padding: 40px;
+}
+.contact_box{
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+.contact_name h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.contact_img img{
+    border-radius: 50%;
+}
+.contact_email p{
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+}
+.contact_time p{
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
